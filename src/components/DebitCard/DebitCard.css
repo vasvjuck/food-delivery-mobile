@@ -1,0 +1,65 @@
+.cardGroup {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.card_logo,
+.card_cheap,
+.card_number,
+.card_name,
+.card_from,
+.card_to,
+.card_ring {
+  position: absolute;
+}
+.card_logo {
+  width: 60px;
+  height: auto;
+  top: 30px;
+  right: 30px;
+}
+.card_cheap {
+  width: 40px;
+  height: auto;
+  top: 50px;
+  left: 30px;
+}
+.card_number,
+.card_name,
+.card_to,
+.card_from {
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.card_number {
+  left: 30px;
+  bottom: 60px;
+}
+
+.card_name {
+  font-size: 12px;
+  bottom: 30px;
+  left: 30px;
+}
+.card_from {
+  font-size: 12px;
+  bottom: 30px;
+  right: 90px;
+}
+.card_to {
+  font-size: 12px;
+  bottom: 30px;
+  right: 30px;
+}
+.card_ring {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background: transparent;
+  border: 50px solid rgba(0, 0, 0, 0.1);
+  top: -250px;
+  right: -250px;
+  box-sizing: border-box;
+}
